@@ -5,7 +5,7 @@ function loadData(){
 }
 
 function loadUsers(){
-    fetch('https://jsonplaceholder.typicode.com/todos')
+    fetch('https://jsonplaceholder.typicode.com/users')
     .then(res => res.json())
     .then(data => displayUsers(data));
 }
